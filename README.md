@@ -9,20 +9,6 @@ This is an **E-Commerce Product Catalog** built using **Next.js (App Router), Ma
 - Data fetching with React Query
 - Styled with Material UI and Tailwind CSS
 
-## 📂 Project Structure
-```
-.
-├── components/          # Reusable UI components
-├── store/               # Jotai state management
-├── app/
-│   ├── lib/             # Utility functions (e.g., API calls)
-│   ├── layout.tsx       # Root layout component
-│   ├── page.tsx         # Home page
-├── styles/              # Global styles (Tailwind CSS, Material UI themes)
-├── public/              # Static assets
-├── README.md            # Project documentation
-```
-
 ## 🛠️ Installation
 
 Clone the repository:
