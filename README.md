@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# E-Commerce Product Catalog
 
-## Getting Started
+This is an **E-Commerce Product Catalog** built using **Next.js (App Router), Material UI, React Query, Jotai, and TypeScript**.
 
-First, run the development server:
+## 🚀 Features
+- Product listing with category filtering
+- Dark mode toggle
+- State management with Jotai
+- Data fetching with React Query
+- Styled with Material UI and Tailwind CSS
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 📂 Project Structure
+```
+.
+├── components/          # Reusable UI components
+├── store/               # Jotai state management
+├── app/
+│   ├── lib/             # Utility functions (e.g., API calls)
+│   ├── layout.tsx       # Root layout component
+│   ├── page.tsx         # Home page
+├── styles/              # Global styles (Tailwind CSS, Material UI themes)
+├── public/              # Static assets
+├── README.md            # Project documentation
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Installation
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Clone the repository:
+```bash
+git clone https://github.com/your-username/your-repository.git
+cd your-repository
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Install dependencies:
+```bash
+npm install
+```
 
-## Learn More
+## 🚀 Running the Project
+Start the development server:
+```bash
+npm run dev
+```
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-To learn more about Next.js, take a look at the following resources:
+## ⚡ Environment Variables
+Create a `.env.local` file in the root directory and add the required API keys:
+```
+NEXT_PUBLIC_API_URL=https://your-api-endpoint.com
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## ✅ Deployment
+You can deploy this project using **Vercel**:
+```bash
+vercel
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📜 License
+This project is licensed under the MIT License.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Feel free to modify this README to better suit your project! 🚀
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
